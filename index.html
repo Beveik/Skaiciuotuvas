@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java paskaita, skaičių apvertimas</title>
+    <style>
+        body {
+            /* position:absolute; */
+            /* margin: auto;
+            padding-left: 50px;
+            display: table; */
+        }
+        button {
+            width: 80px;
+            /* margin-bottom: 20px; */
+            
+        }
+        result {
+            position: relative; 
+            float:left;
+            width: 100px;
+            height: 20px;
+            font-weight: 200;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="skaiciuotuvas">
+    <h1>Skaičiuotuvas</h1>
+
+<p>Įveskite pirmą skaičių: <input id="skaicius1"></p>
+<p>Įveskite antrą skaičių: <input id="skaicius2"></p>
+
+
+<button onclick="sudeti()">Suma</button>
+
+    <div class="result" id="rezultatas1"></div>
+        
+<button onclick="atimti()">Atimtis</button>
+
+    <div class="result" id="rezultatas2"> </div>
+        
+<button onclick="dauginti()">Sandauga</button>
+
+    <div class="result" id="rezultatas3"></div>
+        
+<button onclick="dalinti()">Dalyba</button>
+
+<div class="result" id="rezultatas4"></div>
+
+</div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
